@@ -125,10 +125,10 @@ docker kill <container-id-b9825fe74324>
 
 - Install plugin "GitHub Integration" on Jenkin server
 
-- Now go to Github and create webhook by visiting your repo's setting's Webhook option, create one with the necessary updates. Make sure to git jenkins payload  url in below format:
+- Now go to Github and create webhook by visiting your repo's setting's Webhook option, create one with the necessary updates. Make sure to add jenkins payload url in below format:
 
 ```
-http://3.95.211.173:8080/github-webhook/
+http://<public-ip>:8080/github-webhook/
 
 ```
 
